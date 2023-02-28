@@ -4,7 +4,7 @@ import (
     "fmt"
     "time"
 
-    "github.com/J-Wood105/ACCBroadcastWrapper/pkg/accapi.com"
+    "github.com/J-Wood105/ACCBroadcastWrapper/pkg/accapi"
 )
 
 func main() {
@@ -27,4 +27,4 @@ func main() {
         }
 
         // Process the packet (e.g. unpack the data).
-        fmt.Printf("received packet %d
+        fmt.Printf("received packet %d")
